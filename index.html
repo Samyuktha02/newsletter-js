@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+    <head>
+        <title>News JS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+
+    <main class="hero-Container">
+        <section class="news">
+            <div class="newsContainer">
+                <div class="heading">
+                    <h1>SUBSCRIBE TO OUR NEWSLETTER</h1>
+                </div>
+                <div class="newsSub">
+                    <p><label id="email-label">Email :</label>
+                     <input type="text" spellcheck="false" id="email-field" onkeyup="validateEmail()" > <div id="div2"></div></p> <br>
+                    <span id="email-error"></span>
+                    <div class="btn">
+                    <button onclick="submit()" id="Subscribe">Subscribe Now</button><div id="div3"></div><br><br>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>         
+    <script src="script.js"></script>
+    </body>
+</html>
